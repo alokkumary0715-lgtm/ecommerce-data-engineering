@@ -1,29 +1,28 @@
-# Virtual environment
-.venv/
-
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
 
 # Environment variables
 .env
 
-# Credentials
-credentials.json
-*.pem
-*.key
-
-# Data
-data/raw/*
-data/bronze/*
-data/silver/*
-data/gold/*
-
-# Jupyter
-.ipynb_checkpoints/
-
-# VS Code
-.vscode/
+# Generated data
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+data/audit/
 
 # Logs
-*.log
+logs/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
